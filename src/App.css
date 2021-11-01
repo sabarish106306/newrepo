@@ -1,0 +1,21 @@
+.App{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.App>.container>.date{
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(221, 58, 58);
+}
+.App>.container>.heading>h1{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.App>.container>.input>input{
+  width: 80px;
+
+}

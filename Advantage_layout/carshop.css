@@ -1,0 +1,769 @@
+.nav{
+    background-color:rgb(253, 253, 253) ;
+    width: 960px;
+    height:auto;
+}
+.nav .logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav .companylogo{
+    width:420px ;
+    height: auto;
+    float: left;
+}
+.nav .companylogo .note p{
+    font-size: small;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: 900;
+    font-style: italic;
+    position: absolute;
+    left:150px;
+    top:30px;
+    font-family:cursive;
+}
+.nav .menu{
+    width:396px;
+    height: auto;
+    float: left;
+}
+.menu .lang{
+    width: 100px;
+    position: relative;
+    right: 85px;
+    float: right;
+    margin-top: 25px;
+}
+.menu .lang select{
+    height: 20px;
+    width: 100%;
+    border:2px solid #ccc;   
+    appearance: none;
+}
+.menu .lang .custom-arrow{
+    display: block;
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    pointer-events: none;
+    
+}
+.menu .lang .custom-arrow::after,.custom-arrow::before{
+    content: "";
+    position:absolute;
+    width: 0;
+    height: 0;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.menu .lang .custom-arrow::after {
+    border-top: 8px solid  #46bdea;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: 35%;
+    top:50%;
+    margin-left: 2px;
+
+    
+}
+.menu .lang1{
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    margin-top: 25px;
+}
+.menu .lang1 select{
+    height: 20px;
+    width: 100%;
+    border:2px solid #ccc;   
+    appearance: none;
+}
+.menu .lang1 .custom-arrow1{
+    display: block;
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    pointer-events: none;
+    
+}
+.menu .lang1 .custom-arrow1::after,.custom-arrow1::before{
+    content: "";
+    position:absolute;
+    width: 0;
+    height: 0;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.menu .lang1 .custom-arrow1::after {
+    border-top: 8px solid  #46bdea;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: 35%;
+    top:50%;
+    margin-left: 2px;
+
+    
+}
+.nav .menu .search .input {
+         position: relative;
+         left:340px;
+         bottom: 23px; 
+         display: inline;   
+}
+.nav .menu .search .button{
+    position:relative;
+    left:340px;
+    bottom: 18px; 
+    display: inline;   
+
+
+}
+body .content{
+    width: 960px;
+    height: auto;
+}
+.content .active{
+    width: 20%;
+    float: left;
+background-color:  #007cc0;
+height: 30px;
+
+
+
+    
+}
+.content .active h2{
+font-size: 10px;
+font-family: Arial;
+text-transform: uppercase;
+margin-left: 33px;
+margin-right: 33px;
+
+
+}
+
+
+
+.content .note{
+    width: 80%;
+    float: left;
+    height: 30px;
+    background-color: #ccc;
+}   
+.content .note a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+
+} 
+.content .note .note1 {
+    font-size: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    margin-left: 33px;
+    margin-right: 53px;  
+    } 
+    .content .note .note2 {
+        font-size: 10px;
+        font-family: Arial;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:black;
+        margin-left: 53px;
+        margin-right: 53px;  
+        } 
+    
+        .content .note .note3 {
+            font-size: 10px;
+            font-family: Arial;
+            text-transform: uppercase;
+            text-decoration: none;
+            color:black;
+            margin-left: 53px;
+            margin-right: 53px;  
+            } 
+        
+            .content .note .note4 {
+                font-size: 10px;
+                font-family: Arial;
+                text-transform: uppercase;
+                text-decoration: none;
+                color:black;
+                margin-left: 53px;
+                margin-right: 33px;  
+                } 
+ .steps .section{
+     width: 960px;
+     height: 33px;
+     position: absolute;
+     top:130px;
+ }   
+ .steps .section .step1{
+     width: 10%;
+     height: 33px;
+     float: left;
+     background-color:white;
+     background-color:  #c6e6f1;
+ }   
+ .steps .section .step2{
+    width: 50%;
+    height: 33px;
+    float: left;
+    background-color:#007cc0 ;
+ }
+ .steps .section .img1{
+     float: left;
+ }
+ .steps .section .img2{
+    float: left;
+}
+.steps .section .step3{
+    width: 100%;
+    height: 100%;
+    background-color:white ;
+
+}
+.steps .section .step1 a{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-left: 30%;
+
+
+
+}
+.steps .section .step2 a{
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-left: 35%;
+
+}
+.steps .section .step3 a{
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-left: 10%;
+
+}
+body .aside{
+    width: 960px;
+    height: auto;
+}
+body .aside .aside1{
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top:230px;
+    float: left;
+   
+
+}
+body .aside .aside1 .car1 .set1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+}
+body .aside .aside1 .car1 .set2{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+
+
+}
+body .aside .aside1 .car1 .set3{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+
+
+}
+body .aside .aside1 .car1 .set4{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+}
+body .aside .aside1 .car1 .set1 .letter1{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+
+}
+body .aside .aside1 .car1 .set1 .letter2{
+    text-transform: uppercase;
+    margin: 10px;
+}
+body .aside .aside1 .car1 .set1 .letter3{
+    width: 80%;
+}
+body .aside .aside1 .car1 .set1 .letter4{
+    font-family: Arial;
+    font-size: small;
+
+}
+
+
+
+body .aside .aside1 .car2 {
+    position: absolute;
+    top:180px;
+    width: 100%;
+}
+
+
+
+
+
+body .aside .aside1 .car2 .set1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+}
+body .aside .aside1 .car2 .set2{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+
+
+}
+body .aside .aside1 .car2 .set3{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+
+
+}
+body .aside .aside1 .car2 .set4{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+   
+}
+body .aside .aside1 .car2 .set1 .letter1{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+
+}
+body .aside .aside1 .car2 .set1 .letter2{
+    text-transform: uppercase;
+    margin: 10px;
+}
+body .aside .aside1 .car2 .set1 .letter3{
+    width: 80%;
+}
+body .aside .aside1 .car2 .set1 .letter4{
+    font-family: Arial;
+    font-size: small;
+
+}
+
+
+body .aside .aside1 .car3 {
+    position: absolute;
+    top:400px;
+    width: 100%;
+
+
+
+}
+
+
+body .aside .aside1 .car3 .set1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+}
+body .aside .aside1 .car3 .set2{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+
+
+}
+body .aside .aside1 .car3 .set3{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+
+
+}
+body .aside .aside1 .car3 .set4{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+}
+body .aside .aside1 .car3 .set1 .letter1{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+
+}
+body .aside .aside1 .car3 .set1 .letter2{
+    text-transform: uppercase;
+    margin: 10px;
+}
+body .aside .aside1 .car3 .set1 .letter3{
+    width: 80%;
+}
+body .aside .aside1 .car3 .set1 .letter4{
+    font-family: Arial;
+    font-size: small;
+
+}
+
+
+body .aside .aside1 .car4 {
+    position: absolute ;
+    top:620px;
+    width: 100%;
+
+
+
+
+}
+
+
+body .aside .aside1 .car4 .set1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+}
+body .aside .aside1 .car4 .set2{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+
+
+}
+body .aside .aside1 .car4 .set3{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+
+
+}
+body .aside .aside1 .car4 .set4{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+}
+body .aside .aside1 .car4 .set1 .letter1{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+
+}
+body .aside .aside1 .car4 .set1 .letter2{
+    text-transform: uppercase;
+    margin: 10px;
+}
+body .aside .aside1 .car4 .set1 .letter3{
+    width: 80%;
+}
+body .aside .aside1 .car4 .set1 .letter4{
+    font-family: Arial;
+    font-size: small;
+
+}
+
+
+body .aside .aside1 .car5 {
+    position: absolute;
+    top:840px;
+    width: 100%;
+
+
+
+
+}
+
+
+body .aside .aside1 .car5 .set1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+}
+body  .aside .aside1 .car5 .set2{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 10px;
+    text-align: center;
+
+
+
+}
+body .aside .aside1 .car5 .set3{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+
+
+}
+body .aside .aside1 .car5 .set4{
+    width: 25%;
+    height: 100px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+}
+body .aside .aside1 .car5 .set1 .letter1{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+
+}
+body .aside .aside1 .car5 .set1 .letter2{
+    text-transform: uppercase;
+    margin: 10px;
+}
+body .aside .aside1 .car5 .set1 .letter3{
+    width: 80%;
+}
+body .aside .aside1 .car5 .set1 .letter4{
+    font-family: Arial;
+    font-size: small;
+
+}
+body .aside .aside2{
+  position:absolute;
+  left:700px ;
+  top:230px;
+  width: 260px;
+  height: 400px;
+  background-color:rgb(196, 225, 250);
+  border-radius: 20px;
+}
+body .aside .aside2 .head{
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+body .aside .aside2 .hd1{
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+body .aside .aside2 .hd2{
+    font-size: small;
+    font-family: Arial;
+    margin-left: 10px;
+
+}
+body .aside .aside2 .img{
+    width: 260px;
+    margin-top: 20px;
+}
+body .foot{
+    width: 1100px;
+    position: absolute;
+    top:1300px;
+}
+body .foot .set1 {
+    width: 25%;
+    float: left;
+    
+
+}
+
+body .foot .set1 .head{
+    font-size: large;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+body .foot .set1 .input {
+    height: 30px;
+    margin-left: 30px;
+
+}
+body .foot .set1 .img5 {
+    position: absolute;
+    top:60px;
+    
+}
+body .foot .set1 .img6 {
+    position: relative;
+    top:15px;
+    margin-left: 30px;
+
+}
+body .foot .set1 .img7 {
+    position: relative;
+    top:30px;
+    left: 30px;
+
+}
+body .foot .set1 .note7 {
+    font-family: Arial;
+    font-size:small;
+    text-transform: capitalize;
+   position: relative;
+   left: 35px;
+   top:20px;
+   color:  #007cc0;
+}
+body .foot .set2 {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+body .foot .set3 {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+
+}
+body .foot .set4 {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+
+}
+body .foot .set2 .head1{
+    color:  #007cc0;
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 700;
+
+}
+body .foot .set2 .head2{
+    color:  #007cc0;
+
+
+}
+body .foot .set3 .head1{
+    color:  #007cc0;
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 700;
+
+}
+body .foot .set3 .head2{
+    color:  #007cc0;
+
+
+}
+body .foot .set4 .head1{
+    color:  #007cc0;
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 700;
+
+}
+body .foot .set4 .head2{
+    color:  #007cc0;
+
+
+}
+body .footer{
+    position:absolute;
+    top:1550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

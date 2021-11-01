@@ -1,0 +1,340 @@
+body{
+    background-color: aqua;
+}
+
+body .total{
+    width: 960px;
+    height: auto;
+    background-color: white;
+    margin-left: 15%;
+}
+body .total .head{
+    display: flex;
+    justify-content: space-between;
+}
+body .total .head .logo{
+    margin-top: 30px;
+}
+body .total .head .logo .logonote{
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+    font-size: small;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:  #007cc0;
+
+}
+body .total .head .state{
+    margin-top: 30px;
+   
+}
+body .total .head .lang{
+    margin-top: 30px;
+}
+body .total .head .search{
+    margin-top: 27px;
+    margin-right: 30px;
+}
+body .total .head .state .select select {
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+body .total .head .state .select {
+    position: relative;
+}
+body .total .head .state .select .curser {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+
+}
+body .total .head .state .select .curser::after,.curser::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+}
+body .total .head .state .select .curser::after  {
+    border-top: 8px solid #46bdea;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+
+
+}
+body .total .head .lang .select select {
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+body .total .head .lang .select {
+    position: relative;
+}
+body .total .head .lang .select .curser {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+
+}
+body .total .head .lang .select .curser::after,.curser::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+}
+body .total .head .lang .select .curser::after  {
+    border-top: 8px solid #46bdea;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+body .total .head .search input{
+    height: 30px;
+    
+}
+body .total .head .search .button a .img {
+position: relative;
+left: 178px;
+bottom: 33px;
+}
+body .head2{
+    display: flex;
+    justify-content: space-between;
+}
+body .head2 .active{
+    height: 30px;
+    background-color:  #007cc0  ;
+    width: 300px;
+}
+body .head2 .active h2{
+    position: relative;
+    bottom: 0px;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+body .head2 .list1 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: black;
+}
+body .head2 .list1 a:hover{
+    border-bottom: 4px solid #007cc0 ;
+}
+body .head2 .list2 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: black;
+}
+body .head2 .list2 a:hover{
+    border-bottom: 4px solid #007cc0 ;
+}
+body .head2 .list3 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: black;
+}
+body .head2 .list3 a:hover{
+    border-bottom: 4px solid #007cc0 ;
+}
+body .head2 .list4 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: black;
+}
+body .head2 .list4 a:hover{
+    border-bottom: 4px solid #007cc0 ;
+}
+
+.head3 .section{
+    width: 960px;
+    height: 33px;
+    position: relative;
+    top:30px;
+}   
+.head3 .section .step1{
+    width: 10%;
+    height: 33px;
+    float: left;
+    background-color:white;
+    background-color:  #c6e6f1;
+}   
+.head3 .section .step2{
+   width: 50%;
+   height: 33px;
+   float: left;
+   background-color:#007cc0 ;
+}
+.head3 .section .img1{
+    float: left;
+}
+.head3 .section .img2{
+   float: left;
+}
+.head3 .section .step3{
+   width: 100%;
+   height: 100%;
+   background-color:white ;
+
+}
+.head3 .section .step1 a{
+   text-decoration: none;
+   color:black;
+   font-size: 12px;
+   font-family: Arial;
+   text-transform: uppercase;
+   margin-left: 30%;
+
+
+
+
+}
+.head3 .section .step2 a{
+   text-decoration: none;
+   color:white;
+   font-size: 12px;
+   font-family: Arial;
+   text-transform: uppercase;
+   margin-left: 35%;
+
+}
+.head3 .section .step3 a{
+   text-decoration: none;
+   font-size: 12px;
+   font-family: Arial;
+   text-transform: uppercase;
+   margin-left: 10%;
+}
+.aside {
+    width: 70%;
+    height: auto;
+}
+.aside  .car1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    background-color:#ccc;
+    border-radius: 30px;
+
+
+}
+.aside  .car2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.aside  .car3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    border-radius: 30px;
+
+}
+.aside  .car4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 30px;
+
+
+}
+.aside  .car5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    border-radius: 30px;
+
+}
+.aside  .car1 .set1 p{
+    font-size: large;
+    text-transform: uppercase;
+}
+.aside  .car2 .set1 p{
+    font-size: large;
+    text-transform: uppercase;
+}
+.aside  .car3 .set1 p{
+    font-size: large;
+    text-transform: uppercase;
+}
+.aside  .car4 .set1 p{
+    font-size: large;
+    text-transform: uppercase;
+}
+.aside  .car5 .set1 p{
+    font-size: large;
+    text-transform: uppercase;
+}
+.aside .aside2{
+    display: flex;
+    justify-content: flex-end;
+}
+.aside1{
+    width:260px;
+    position:relative;
+    left:71.5%;
+    bottom:873px;
+}
+.aside1 .content{
+    background-color: #ade2f5;
+    padding:20px;
+    border-radius:30px;
+
+}
+.aside1 .offer{
+    padding: 10px; 
+}
+.aside1 .content .hd1{
+    font-size: small;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bolder;
+}
+.aside1 .content .hd2{
+    font-size: 12px;
+}
+.aside1 .content .head{
+    font-size: medium;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bolder;
+
+}
+
+
