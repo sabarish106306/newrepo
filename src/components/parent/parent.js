@@ -7,6 +7,7 @@ class Parent extends Component {
       <Child name="Reegan" />
       <Child name="vinothini" />
       <Child name="kavishree" />
+      hello
     </div>;
   }
 }
